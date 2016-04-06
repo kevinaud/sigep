@@ -1,0 +1,319 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Merriweather', serif;
+    background-color: #CFCFCF;
+    font-size: 15px;
+}
+.wrap {
+    min-height: 100%;
+    min-width: 1170px;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 0px;/*
+    background-image: url("../../web/images/background-crest.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 51% 150px;
+    background-size: 412px 515px;*/
+    z-index: -1;
+    overflow: hidden;
+}
+.wrap > .container {
+    background-color: white;
+    box-shadow: 0px 5px 20px 10px #888;
+    z-index: 1;
+    min-height: 800px;
+    overflow: hidden;
+}
+.container {
+    width: 1170px;
+    overflow: hidden;
+}
+.footer {
+    height: 30px;
+}
+.footer > .container {
+    height: 30px;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+.virtue .text-purple {
+    color: #52006F;
+    border-bottom: 2px solid #52006F;
+}
+.diligence .text-red {
+    color: #D10028;
+    border-bottom: 2px solid #D10028;
+}
+.brotherly-love .text-gold {
+    color: #AA9D00;
+    border-bottom: 2px solid #AA9D00;
+}
+.text-purple {
+    color: #52006F;
+}
+.text-red {
+    color: #D10028;
+}
+.text-gold {
+    color: #AA9D00;
+}
+.title-font {
+    margin-top: 0;
+}
+.site-contact .page-title {
+    margin-bottom: 70px;
+}
+.btn-danger {
+    background-color: #D10028;
+}
+.nav-col {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    height: 50px;
+}
+.nav, .nav-pills {
+    background-color: #D10028;
+    border-radius: 0;
+}
+.navbar > .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.nav {
+  text-align: center;
+}
+.nav a {
+    color: white;
+}
+.nav li a:hover {
+    color: white;
+    background-color: #92001C;
+}
+.nav .open > a, .nav .open > a:hover, 
+.nav .open > a:focus {
+    background-color: #92001C;
+}
+.dropdown-menu > li > a {
+    color: white;
+}
+.dropdown-menu {
+    background-color: #D10028;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #D10028;
+}
+.nav > .active > li > a,
+.nav > .active > li > a:hover, 
+.nav > .active > li > a:focus {
+    background-color: #92001C;
+}
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus 
+{
+    background-color: #D10028;
+}
+.dropdown-menu > .active > a, 
+.dropdown-menu > .active > a:hover, 
+.dropdown-menu > .active > a:focus {
+    background-color: #92001C;
+    color: white;
+    outline: 0 none;
+    text-decoration: none;
+}
+.page-heading, .page-subheading, .title-font, .navbar-brand {
+    font-family: 'Cinzel', serif;
+}
+.page-heading { 
+    margin-bottom: 0;
+}
+.page-subheading {
+    margin-top: 0;
+}
+.header img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 18px;
+    height: 70px;
+}
+.header {
+    height: 90px;
+    margin-top: 20px;
+}
+.page-title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.panel {
+    border-radius: 0;
+}
+.panel-list > ul, .panel-list > li {
+    padding-left: 0;
+    list-style-type: none;
+}
+.panel-list > ul {
+    margin-left: -15px;
+}
+.panel-heading > .page-title {
+    margin-bottom: 0;
+}
+.panel {
+    background-color: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.panel-body p {
+    text-indent: 40px;
+    color: black;
+}
+.exec-description li {
+    list-style-type: none;
+    padding-left: 0;
+}
+.exec-description {
+    padding-left: 0;
+}
+.recruitment-welcome {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.long-text p {
+    text-indent: 40px;
+}
+.welcome-text {
+    padding-top: 20px;
+}
+.virtue {
+    margin-top: 30px;
+}
+.slider {
+    margin-top: 20px;
+    box-shadow: none;
+}
+.virtue p, .diligence p, .brotherly-love p {
+    font-size: 12px;
+}
+.home-row-two {
+    margin-top: 40px;
+}
+.current-title {
+    margin-bottom: 30px;
+}
+.site-sweetheart .list-inline {
+    font-size: 18px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+.social-media {
+    position: absolute;
+    z-index: 1;
+    margin-top: -70px;
+    margin-left: 760px;
+    min-width: 400px;
+    overflow: hidden;
+}
+.twitter-follow-button {
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+.ig-follow {
+    margin-bottom: 50px;
+}
+.fb-like {
+}
+@media (max-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-justified > li > a  {
+    border-bottom: 1px solid #ddd !important;
+    border-radius: 4px 4px 0 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
